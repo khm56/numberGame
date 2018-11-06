@@ -7,8 +7,46 @@
   height: 40vmin;
 }
 
+h1.success {
+  animation: mymove 5s infinite;
+  color: green;
+  font-family: Impact;
+}
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+h1.instructions {
+  font-family: American Typewriter;
+  color: black;
+  font-size: 90px;
+  font-weight: bold;
+}
+h2.instructions {
+  font-family: American Typewriter;
+  color: red;
+  font-weight: bold;
+}
+h2.instructionsc {
+  font-family: American Typewriter;
+  color: green;
+  font-weight: bold;
+}
+
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
