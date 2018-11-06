@@ -13,7 +13,12 @@ class Fail extends Component {
         />
         <h2 className="instructions">
           {" "}
-          YOU LOST, TRY AGAIN IF YOU WISH TO RESCUE YOUR FAMILY
+          YOU LOST, HURRY!! TRY AGAIN IF YOU WISH TO RESCUE YOUR FAMILY
+        </h2>
+        <h2>
+          {" "}
+          "Voldemort is my past, present, and future" are you sure this is what
+          you want to say?
         </h2>
       </div>
     );

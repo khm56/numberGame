@@ -53,6 +53,7 @@ class App extends Component {
   }
 
   checkGuess() {
+    this.setState({ hintb: false });
     let query = +this.state.guess;
     if (query === this.state.number) {
       this.setState({ guessb: true });

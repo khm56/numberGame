@@ -11,10 +11,11 @@ class Success extends Component {
           style={{ width: "300px", height: "200px" }}
           alt="logo"
         />
-        <h1 className="success">
+        <h1 className="instructions">
           {" "}
-          Mercy is looking over you and your family you may always be safe
+          Mercy is looking over you and your family... You may always be safe
         </h1>
+        <h2 className="instructions"> I'm taking care of you. - Mercy</h2>
       </div>
     );
   }
