@@ -15,7 +15,7 @@ class Success extends Component {
           {" "}
           Mercy is looking over you and your family... You may always be safe
         </h1>
-        <h2 className="instructions"> I'm taking care of you. - Mercy</h2>
+        <h2> I'm taking care of you. - Mercy</h2>
       </div>
     );
   }

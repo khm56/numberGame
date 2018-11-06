@@ -102,7 +102,7 @@ class App extends Component {
             />
           </div>
           <div className="row">
-            You have {this.state.guessesLeft} attempts left
+            <h4>You have {this.state.guessesLeft} attempts left</h4>
           </div>
           <div className="row">{this.state.hintb ? hintnum : <div />}</div>
           <div className="row">
